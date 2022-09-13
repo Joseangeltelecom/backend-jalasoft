@@ -1,0 +1,42 @@
+C:\Users\josea\OneDrive\Escritorio\Bootcamp- JalaSoft\Backend-C#\ClassMembers\ClassMembers\bin\Debug\netcoreapp3.1\ClassMembers.exe
+C:\Users\josea\OneDrive\Escritorio\Bootcamp- JalaSoft\Backend-C#\ClassMembers\ClassMembers\bin\Debug\netcoreapp3.1\ClassMembers.deps.json
+C:\Users\josea\OneDrive\Escritorio\Bootcamp- JalaSoft\Backend-C#\ClassMembers\ClassMembers\bin\Debug\netcoreapp3.1\ClassMembers.runtimeconfig.json
+C:\Users\josea\OneDrive\Escritorio\Bootcamp- JalaSoft\Backend-C#\ClassMembers\ClassMembers\bin\Debug\netcoreapp3.1\ClassMembers.runtimeconfig.dev.json
+C:\Users\josea\OneDrive\Escritorio\Bootcamp- JalaSoft\Backend-C#\ClassMembers\ClassMembers\bin\Debug\netcoreapp3.1\ClassMembers.dll
+C:\Users\josea\OneDrive\Escritorio\Bootcamp- JalaSoft\Backend-C#\ClassMembers\ClassMembers\bin\Debug\netcoreapp3.1\ClassMembers.pdb
+C:\Users\josea\OneDrive\Escritorio\Bootcamp- JalaSoft\Backend-C#\ClassMembers\ClassMembers\obj\Debug\netcoreapp3.1\ClassMembers.csproj.AssemblyReference.cache
+C:\Users\josea\OneDrive\Escritorio\Bootcamp- JalaSoft\Backend-C#\ClassMembers\ClassMembers\obj\Debug\netcoreapp3.1\ClassMembers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josea\OneDrive\Escritorio\Bootcamp- JalaSoft\Backend-C#\ClassMembers\ClassMembers\obj\Debug\netcoreapp3.1\ClassMembers.AssemblyInfoInputs.cache
+C:\Users\josea\OneDrive\Escritorio\Bootcamp- JalaSoft\Backend-C#\ClassMembers\ClassMembers\obj\Debug\netcoreapp3.1\ClassMembers.AssemblyInfo.cs
+C:\Users\josea\OneDrive\Escritorio\Bootcamp- JalaSoft\Backend-C#\ClassMembers\ClassMembers\obj\Debug\netcoreapp3.1\ClassMembers.csproj.CoreCompileInputs.cache
+C:\Users\josea\OneDrive\Escritorio\Bootcamp- JalaSoft\Backend-C#\ClassMembers\ClassMembers\obj\Debug\netcoreapp3.1\ClassMembers.dll
+C:\Users\josea\OneDrive\Escritorio\Bootcamp- JalaSoft\Backend-C#\ClassMembers\ClassMembers\obj\Debug\netcoreapp3.1\ClassMembers.pdb
+C:\Users\josea\OneDrive\Escritorio\Bootcamp- JalaSoft\Backend-C#\ClassMembers\ClassMembers\obj\Debug\netcoreapp3.1\ClassMembers.genruntimeconfig.cache
+C:\Users\josea\OneDrive\Escritorio\Bootcamp- JalaSoft\Backend-C#\ClassMembers - Version modificada\ClassMembers\bin\Debug\netcoreapp3.1\ClassMembers.exe
+C:\Users\josea\OneDrive\Escritorio\Bootcamp- JalaSoft\Backend-C#\ClassMembers - Version modificada\ClassMembers\bin\Debug\netcoreapp3.1\ClassMembers.deps.json
+C:\Users\josea\OneDrive\Escritorio\Bootcamp- JalaSoft\Backend-C#\ClassMembers - Version modificada\ClassMembers\bin\Debug\netcoreapp3.1\ClassMembers.runtimeconfig.json
+C:\Users\josea\OneDrive\Escritorio\Bootcamp- JalaSoft\Backend-C#\ClassMembers - Version modificada\ClassMembers\bin\Debug\netcoreapp3.1\ClassMembers.runtimeconfig.dev.json
+C:\Users\josea\OneDrive\Escritorio\Bootcamp- JalaSoft\Backend-C#\ClassMembers - Version modificada\ClassMembers\bin\Debug\netcoreapp3.1\ClassMembers.dll
+C:\Users\josea\OneDrive\Escritorio\Bootcamp- JalaSoft\Backend-C#\ClassMembers - Version modificada\ClassMembers\bin\Debug\netcoreapp3.1\ClassMembers.pdb
+C:\Users\josea\OneDrive\Escritorio\Bootcamp- JalaSoft\Backend-C#\ClassMembers - Version modificada\ClassMembers\obj\Debug\netcoreapp3.1\ClassMembers.csproj.AssemblyReference.cache
+C:\Users\josea\OneDrive\Escritorio\Bootcamp- JalaSoft\Backend-C#\ClassMembers - Version modificada\ClassMembers\obj\Debug\netcoreapp3.1\ClassMembers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josea\OneDrive\Escritorio\Bootcamp- JalaSoft\Backend-C#\ClassMembers - Version modificada\ClassMembers\obj\Debug\netcoreapp3.1\ClassMembers.AssemblyInfoInputs.cache
+C:\Users\josea\OneDrive\Escritorio\Bootcamp- JalaSoft\Backend-C#\ClassMembers - Version modificada\ClassMembers\obj\Debug\netcoreapp3.1\ClassMembers.AssemblyInfo.cs
+C:\Users\josea\OneDrive\Escritorio\Bootcamp- JalaSoft\Backend-C#\ClassMembers - Version modificada\ClassMembers\obj\Debug\netcoreapp3.1\ClassMembers.csproj.CoreCompileInputs.cache
+C:\Users\josea\OneDrive\Escritorio\Bootcamp- JalaSoft\Backend-C#\ClassMembers - Version modificada\ClassMembers\obj\Debug\netcoreapp3.1\ClassMembers.dll
+C:\Users\josea\OneDrive\Escritorio\Bootcamp- JalaSoft\Backend-C#\ClassMembers - Version modificada\ClassMembers\obj\Debug\netcoreapp3.1\ClassMembers.pdb
+C:\Users\josea\OneDrive\Escritorio\Bootcamp- JalaSoft\Backend-C#\ClassMembers - Version modificada\ClassMembers\obj\Debug\netcoreapp3.1\ClassMembers.genruntimeconfig.cache
+C:\Users\josea\OneDrive\Escritorio\Bootcamp- JalaSoft\Backend-C#\ClassMembers - Improved Version\ClassMembers\bin\Debug\netcoreapp3.1\ClassMembers.exe
+C:\Users\josea\OneDrive\Escritorio\Bootcamp- JalaSoft\Backend-C#\ClassMembers - Improved Version\ClassMembers\bin\Debug\netcoreapp3.1\ClassMembers.deps.json
+C:\Users\josea\OneDrive\Escritorio\Bootcamp- JalaSoft\Backend-C#\ClassMembers - Improved Version\ClassMembers\bin\Debug\netcoreapp3.1\ClassMembers.runtimeconfig.json
+C:\Users\josea\OneDrive\Escritorio\Bootcamp- JalaSoft\Backend-C#\ClassMembers - Improved Version\ClassMembers\bin\Debug\netcoreapp3.1\ClassMembers.runtimeconfig.dev.json
+C:\Users\josea\OneDrive\Escritorio\Bootcamp- JalaSoft\Backend-C#\ClassMembers - Improved Version\ClassMembers\bin\Debug\netcoreapp3.1\ClassMembers.dll
+C:\Users\josea\OneDrive\Escritorio\Bootcamp- JalaSoft\Backend-C#\ClassMembers - Improved Version\ClassMembers\bin\Debug\netcoreapp3.1\ClassMembers.pdb
+C:\Users\josea\OneDrive\Escritorio\Bootcamp- JalaSoft\Backend-C#\ClassMembers - Improved Version\ClassMembers\obj\Debug\netcoreapp3.1\ClassMembers.csproj.AssemblyReference.cache
+C:\Users\josea\OneDrive\Escritorio\Bootcamp- JalaSoft\Backend-C#\ClassMembers - Improved Version\ClassMembers\obj\Debug\netcoreapp3.1\ClassMembers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josea\OneDrive\Escritorio\Bootcamp- JalaSoft\Backend-C#\ClassMembers - Improved Version\ClassMembers\obj\Debug\netcoreapp3.1\ClassMembers.AssemblyInfoInputs.cache
+C:\Users\josea\OneDrive\Escritorio\Bootcamp- JalaSoft\Backend-C#\ClassMembers - Improved Version\ClassMembers\obj\Debug\netcoreapp3.1\ClassMembers.AssemblyInfo.cs
+C:\Users\josea\OneDrive\Escritorio\Bootcamp- JalaSoft\Backend-C#\ClassMembers - Improved Version\ClassMembers\obj\Debug\netcoreapp3.1\ClassMembers.csproj.CoreCompileInputs.cache
+C:\Users\josea\OneDrive\Escritorio\Bootcamp- JalaSoft\Backend-C#\ClassMembers - Improved Version\ClassMembers\obj\Debug\netcoreapp3.1\ClassMembers.dll
+C:\Users\josea\OneDrive\Escritorio\Bootcamp- JalaSoft\Backend-C#\ClassMembers - Improved Version\ClassMembers\obj\Debug\netcoreapp3.1\ClassMembers.pdb
+C:\Users\josea\OneDrive\Escritorio\Bootcamp- JalaSoft\Backend-C#\ClassMembers - Improved Version\ClassMembers\obj\Debug\netcoreapp3.1\ClassMembers.genruntimeconfig.cache

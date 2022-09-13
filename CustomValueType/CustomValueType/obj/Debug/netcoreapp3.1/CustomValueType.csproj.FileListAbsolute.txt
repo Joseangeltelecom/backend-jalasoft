@@ -1,0 +1,14 @@
+C:\Users\josea\OneDrive\Escritorio\Bootcamp- JalaSoft\Backend-C#\CustomValueType\CustomValueType\obj\Debug\netcoreapp3.1\CustomValueType.csproj.AssemblyReference.cache
+C:\Users\josea\OneDrive\Escritorio\Bootcamp- JalaSoft\Backend-C#\CustomValueType\CustomValueType\obj\Debug\netcoreapp3.1\CustomValueType.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josea\OneDrive\Escritorio\Bootcamp- JalaSoft\Backend-C#\CustomValueType\CustomValueType\obj\Debug\netcoreapp3.1\CustomValueType.AssemblyInfoInputs.cache
+C:\Users\josea\OneDrive\Escritorio\Bootcamp- JalaSoft\Backend-C#\CustomValueType\CustomValueType\obj\Debug\netcoreapp3.1\CustomValueType.AssemblyInfo.cs
+C:\Users\josea\OneDrive\Escritorio\Bootcamp- JalaSoft\Backend-C#\CustomValueType\CustomValueType\obj\Debug\netcoreapp3.1\CustomValueType.csproj.CoreCompileInputs.cache
+C:\Users\josea\OneDrive\Escritorio\Bootcamp- JalaSoft\Backend-C#\CustomValueType\CustomValueType\bin\Debug\netcoreapp3.1\CustomValueType.exe
+C:\Users\josea\OneDrive\Escritorio\Bootcamp- JalaSoft\Backend-C#\CustomValueType\CustomValueType\bin\Debug\netcoreapp3.1\CustomValueType.deps.json
+C:\Users\josea\OneDrive\Escritorio\Bootcamp- JalaSoft\Backend-C#\CustomValueType\CustomValueType\bin\Debug\netcoreapp3.1\CustomValueType.runtimeconfig.json
+C:\Users\josea\OneDrive\Escritorio\Bootcamp- JalaSoft\Backend-C#\CustomValueType\CustomValueType\bin\Debug\netcoreapp3.1\CustomValueType.runtimeconfig.dev.json
+C:\Users\josea\OneDrive\Escritorio\Bootcamp- JalaSoft\Backend-C#\CustomValueType\CustomValueType\bin\Debug\netcoreapp3.1\CustomValueType.dll
+C:\Users\josea\OneDrive\Escritorio\Bootcamp- JalaSoft\Backend-C#\CustomValueType\CustomValueType\bin\Debug\netcoreapp3.1\CustomValueType.pdb
+C:\Users\josea\OneDrive\Escritorio\Bootcamp- JalaSoft\Backend-C#\CustomValueType\CustomValueType\obj\Debug\netcoreapp3.1\CustomValueType.dll
+C:\Users\josea\OneDrive\Escritorio\Bootcamp- JalaSoft\Backend-C#\CustomValueType\CustomValueType\obj\Debug\netcoreapp3.1\CustomValueType.pdb
+C:\Users\josea\OneDrive\Escritorio\Bootcamp- JalaSoft\Backend-C#\CustomValueType\CustomValueType\obj\Debug\netcoreapp3.1\CustomValueType.genruntimeconfig.cache

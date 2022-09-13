@@ -1,0 +1,14 @@
+C:\Users\josea\OneDrive\Escritorio\Bootcamp- JalaSoft\Backend-C#\PrintBuiltInDataType\PrintBuiltInDataType\obj\Debug\netcoreapp3.1\PrintBuiltInDataType.csproj.AssemblyReference.cache
+C:\Users\josea\OneDrive\Escritorio\Bootcamp- JalaSoft\Backend-C#\PrintBuiltInDataType\PrintBuiltInDataType\obj\Debug\netcoreapp3.1\PrintBuiltInDataType.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josea\OneDrive\Escritorio\Bootcamp- JalaSoft\Backend-C#\PrintBuiltInDataType\PrintBuiltInDataType\obj\Debug\netcoreapp3.1\PrintBuiltInDataType.AssemblyInfoInputs.cache
+C:\Users\josea\OneDrive\Escritorio\Bootcamp- JalaSoft\Backend-C#\PrintBuiltInDataType\PrintBuiltInDataType\obj\Debug\netcoreapp3.1\PrintBuiltInDataType.AssemblyInfo.cs
+C:\Users\josea\OneDrive\Escritorio\Bootcamp- JalaSoft\Backend-C#\PrintBuiltInDataType\PrintBuiltInDataType\obj\Debug\netcoreapp3.1\PrintBuiltInDataType.csproj.CoreCompileInputs.cache
+C:\Users\josea\OneDrive\Escritorio\Bootcamp- JalaSoft\Backend-C#\PrintBuiltInDataType\PrintBuiltInDataType\bin\Debug\netcoreapp3.1\PrintBuiltInDataType.exe
+C:\Users\josea\OneDrive\Escritorio\Bootcamp- JalaSoft\Backend-C#\PrintBuiltInDataType\PrintBuiltInDataType\bin\Debug\netcoreapp3.1\PrintBuiltInDataType.deps.json
+C:\Users\josea\OneDrive\Escritorio\Bootcamp- JalaSoft\Backend-C#\PrintBuiltInDataType\PrintBuiltInDataType\bin\Debug\netcoreapp3.1\PrintBuiltInDataType.runtimeconfig.json
+C:\Users\josea\OneDrive\Escritorio\Bootcamp- JalaSoft\Backend-C#\PrintBuiltInDataType\PrintBuiltInDataType\bin\Debug\netcoreapp3.1\PrintBuiltInDataType.runtimeconfig.dev.json
+C:\Users\josea\OneDrive\Escritorio\Bootcamp- JalaSoft\Backend-C#\PrintBuiltInDataType\PrintBuiltInDataType\bin\Debug\netcoreapp3.1\PrintBuiltInDataType.dll
+C:\Users\josea\OneDrive\Escritorio\Bootcamp- JalaSoft\Backend-C#\PrintBuiltInDataType\PrintBuiltInDataType\bin\Debug\netcoreapp3.1\PrintBuiltInDataType.pdb
+C:\Users\josea\OneDrive\Escritorio\Bootcamp- JalaSoft\Backend-C#\PrintBuiltInDataType\PrintBuiltInDataType\obj\Debug\netcoreapp3.1\PrintBuiltInDataType.dll
+C:\Users\josea\OneDrive\Escritorio\Bootcamp- JalaSoft\Backend-C#\PrintBuiltInDataType\PrintBuiltInDataType\obj\Debug\netcoreapp3.1\PrintBuiltInDataType.pdb
+C:\Users\josea\OneDrive\Escritorio\Bootcamp- JalaSoft\Backend-C#\PrintBuiltInDataType\PrintBuiltInDataType\obj\Debug\netcoreapp3.1\PrintBuiltInDataType.genruntimeconfig.cache
