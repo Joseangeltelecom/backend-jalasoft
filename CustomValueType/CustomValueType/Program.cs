@@ -30,6 +30,7 @@ namespace CustomValueType
     {
         static void Main(string[] args)
         {
+            // test
             Month monthNumber = 1;
             Console.WriteLine(monthNumber.GetType() + ": " + monthNumber);
             Console.WriteLine(Month.MinValue);
