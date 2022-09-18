@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\josea\\OneDrive\\Escritorio\\Bootcamp- JalaSoft\\Backend-C#\\ClassMembers - Improved Version\\ClassMembers\\ClassMembers.csproj",
+      "projectUniqueName": "C:\\Users\\josea\\OneDrive\\Escritorio\\Bootcamp- JalaSoft\\Backend-C#\\backend-jalasoft\\ClassMembers\\ClassMembers\\ClassMembers.csproj",
       "projectName": "ClassMembers",
-      "projectPath": "C:\\Users\\josea\\OneDrive\\Escritorio\\Bootcamp- JalaSoft\\Backend-C#\\ClassMembers - Improved Version\\ClassMembers\\ClassMembers.csproj",
+      "projectPath": "C:\\Users\\josea\\OneDrive\\Escritorio\\Bootcamp- JalaSoft\\Backend-C#\\backend-jalasoft\\ClassMembers\\ClassMembers\\ClassMembers.csproj",
       "packagesPath": "C:\\Users\\josea\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\josea\\OneDrive\\Escritorio\\Bootcamp- JalaSoft\\Backend-C#\\ClassMembers - Improved Version\\ClassMembers\\obj\\",
+      "outputPath": "C:\\Users\\josea\\OneDrive\\Escritorio\\Bootcamp- JalaSoft\\Backend-C#\\backend-jalasoft\\ClassMembers\\ClassMembers\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\josea\\AppData\\Roaming\\NuGet\\NuGet.Config",
