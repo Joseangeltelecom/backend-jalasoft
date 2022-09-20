@@ -27,5 +27,9 @@ you have to login using your username if not create a new user.
 7. As a User, I want to be abel to check all the current items I have in my shopping cart.
 8. As a User, I want to be abel to see the list of my items order by price (Descending.)
 9. As a User, I want to be abel to compute the total price of the items I currently have in my shopping cart.
-
-
+10. As a User, I want to be to receive an error message if I selected an Invalid option.
+11. As a user I want to be to receive an message say Thank your for visiting us after finishing my shoppping.
+12. As an Admin, I want to be abel to create a list of items to sell in my EcommerceJala Data Base.
+13. As an Admin, I want to be abel to Edit the list of items to sell in my EcommerceJala Data Base.
+14. As an Admin, I want to be abel to Remove items items to seel in my EcommerceJala Data Base.
+15. As an Admin, I want to be abel to view all items on the console from my EcommerceJala Data Base.
