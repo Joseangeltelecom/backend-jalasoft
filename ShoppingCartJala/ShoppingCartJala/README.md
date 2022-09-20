@@ -17,7 +17,7 @@ users can check what was added to their carts.
 users can compute a total of what they added to the shopping cart.
 the program will say thank the users for shopping at EcommerceJala.
 
-
+## User Stories
 As a User, I want to be abel to loggin to and recieve a message welcome to EcommerceJala if credentails are right.
 As a user, I want to be able to signup if I don't have an account.
 As a User, I can see my name in the console after logging in.
