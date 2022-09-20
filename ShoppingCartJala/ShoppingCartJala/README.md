@@ -16,3 +16,16 @@ users remove an item to the shopping cart.
 users can check what was added to their carts.
 users can compute a total of what they added to the shopping cart.
 the program will say thank the users for shopping at EcommerceJala.
+
+
+As a User, I want to be abel to loggin to and recieve a message welcome to EcommerceJala if credentails are right.
+As a user, I want to be able to signup if I don't have an account.
+As a User, I can see my name in the console after logging in.
+As a User, I want to be abel to add items to my shopping cart.
+As a User, I want to be abel to remove items from my shopping cart.
+As a User, I want to be abel to edit items of my shopping cart. 
+As a User, I want to be abel to check all the current items I have in my shopping cart.
+As a User, I want to be abel to see the list of my items order by price (Descending.)
+As a User, I want to be abel to compute the total price of the items I currently have in my shopping cart.
+
+
