@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\josea\\OneDrive\\Escritorio\\Bootcamp- JalaSoft\\Backend-C#\\Collections\\Collections.csproj",
+      "projectUniqueName": "C:\\Users\\josea\\OneDrive\\Escritorio\\Bootcamp- JalaSoft\\Backend-C#\\backend-jalasoft\\Collections\\Collections.csproj",
       "projectName": "Collections",
-      "projectPath": "C:\\Users\\josea\\OneDrive\\Escritorio\\Bootcamp- JalaSoft\\Backend-C#\\Collections\\Collections.csproj",
+      "projectPath": "C:\\Users\\josea\\OneDrive\\Escritorio\\Bootcamp- JalaSoft\\Backend-C#\\backend-jalasoft\\Collections\\Collections.csproj",
       "packagesPath": "C:\\Users\\josea\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\josea\\OneDrive\\Escritorio\\Bootcamp- JalaSoft\\Backend-C#\\Collections\\obj\\",
+      "outputPath": "C:\\Users\\josea\\OneDrive\\Escritorio\\Bootcamp- JalaSoft\\Backend-C#\\backend-jalasoft\\Collections\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\josea\\AppData\\Roaming\\NuGet\\NuGet.Config",

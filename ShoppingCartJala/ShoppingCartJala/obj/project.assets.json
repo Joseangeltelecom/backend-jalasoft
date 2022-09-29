@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\josea\\OneDrive\\Escritorio\\Bootcamp- JalaSoft\\Backend-C#\\backend-jalasoft\\ShoppingCartJala\\ShoppingCartJala\\EcommerceJala.csproj",
+      "projectUniqueName": "C:\\Users\\josea\\OneDrive\\Escritorio\\Bootcamp-JalaSoft\\Backend-C#\\backend-jalasoft\\ShoppingCartJala\\ShoppingCartJala\\EcommerceJala.csproj",
       "projectName": "EcommerceJala",
-      "projectPath": "C:\\Users\\josea\\OneDrive\\Escritorio\\Bootcamp- JalaSoft\\Backend-C#\\backend-jalasoft\\ShoppingCartJala\\ShoppingCartJala\\EcommerceJala.csproj",
+      "projectPath": "C:\\Users\\josea\\OneDrive\\Escritorio\\Bootcamp-JalaSoft\\Backend-C#\\backend-jalasoft\\ShoppingCartJala\\ShoppingCartJala\\EcommerceJala.csproj",
       "packagesPath": "C:\\Users\\josea\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\josea\\OneDrive\\Escritorio\\Bootcamp- JalaSoft\\Backend-C#\\backend-jalasoft\\ShoppingCartJala\\ShoppingCartJala\\obj\\",
+      "outputPath": "C:\\Users\\josea\\OneDrive\\Escritorio\\Bootcamp-JalaSoft\\Backend-C#\\backend-jalasoft\\ShoppingCartJala\\ShoppingCartJala\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\josea\\AppData\\Roaming\\NuGet\\NuGet.Config",

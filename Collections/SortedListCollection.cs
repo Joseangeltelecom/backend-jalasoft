@@ -1,17 +1,11 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Collections
+﻿namespace Collections
 {
    public static class SortedListCollection
    {
        public static void PrintSortedList()
        {
            SortedList<int, string> students = new SortedList<int, string>(new ReverseComparer());
+
            students.Add(30, "Juanito");
            students.Add(92, "Mengita");
            students.Add(50, "Pepito");
@@ -22,10 +16,6 @@ namespace Collections
            }
        }
    }
-
-
-
-
 }
 
 

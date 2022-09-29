@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\josea\\OneDrive\\Escritorio\\Bootcamp- JalaSoft\\Backend-C#\\backend-jalasoft\\ShoppingCartJala\\EcommerceJala.api\\EcommerceJala.api.csproj": {}
+    "C:\\Users\\josea\\OneDrive\\Escritorio\\Bootcamp-JalaSoft\\Backend-C#\\backend-jalasoft\\ShoppingCartJala\\EcommerceJala.api\\EcommerceJala.api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\josea\\OneDrive\\Escritorio\\Bootcamp- JalaSoft\\Backend-C#\\backend-jalasoft\\ShoppingCartJala\\EcommerceJala.api\\EcommerceJala.api.csproj": {
+    "C:\\Users\\josea\\OneDrive\\Escritorio\\Bootcamp-JalaSoft\\Backend-C#\\backend-jalasoft\\ShoppingCartJala\\EcommerceJala.api\\EcommerceJala.api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\josea\\OneDrive\\Escritorio\\Bootcamp- JalaSoft\\Backend-C#\\backend-jalasoft\\ShoppingCartJala\\EcommerceJala.api\\EcommerceJala.api.csproj",
+        "projectUniqueName": "C:\\Users\\josea\\OneDrive\\Escritorio\\Bootcamp-JalaSoft\\Backend-C#\\backend-jalasoft\\ShoppingCartJala\\EcommerceJala.api\\EcommerceJala.api.csproj",
         "projectName": "EcommerceJala.api",
-        "projectPath": "C:\\Users\\josea\\OneDrive\\Escritorio\\Bootcamp- JalaSoft\\Backend-C#\\backend-jalasoft\\ShoppingCartJala\\EcommerceJala.api\\EcommerceJala.api.csproj",
+        "projectPath": "C:\\Users\\josea\\OneDrive\\Escritorio\\Bootcamp-JalaSoft\\Backend-C#\\backend-jalasoft\\ShoppingCartJala\\EcommerceJala.api\\EcommerceJala.api.csproj",
         "packagesPath": "C:\\Users\\josea\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\josea\\OneDrive\\Escritorio\\Bootcamp- JalaSoft\\Backend-C#\\backend-jalasoft\\ShoppingCartJala\\EcommerceJala.api\\obj\\",
+        "outputPath": "C:\\Users\\josea\\OneDrive\\Escritorio\\Bootcamp-JalaSoft\\Backend-C#\\backend-jalasoft\\ShoppingCartJala\\EcommerceJala.api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\josea\\AppData\\Roaming\\NuGet\\NuGet.Config",
