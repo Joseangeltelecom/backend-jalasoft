@@ -1,0 +1,14 @@
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\Peludo\SingleResponsability\bin\Debug\netcoreapp3.1\SingleResponsability.exe
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\Peludo\SingleResponsability\bin\Debug\netcoreapp3.1\SingleResponsability.deps.json
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\Peludo\SingleResponsability\bin\Debug\netcoreapp3.1\SingleResponsability.runtimeconfig.json
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\Peludo\SingleResponsability\bin\Debug\netcoreapp3.1\SingleResponsability.runtimeconfig.dev.json
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\Peludo\SingleResponsability\bin\Debug\netcoreapp3.1\SingleResponsability.dll
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\Peludo\SingleResponsability\bin\Debug\netcoreapp3.1\SingleResponsability.pdb
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\Peludo\SingleResponsability\obj\Debug\netcoreapp3.1\SingleResponsability.csproj.AssemblyReference.cache
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\Peludo\SingleResponsability\obj\Debug\netcoreapp3.1\SingleResponsability.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\Peludo\SingleResponsability\obj\Debug\netcoreapp3.1\SingleResponsability.AssemblyInfoInputs.cache
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\Peludo\SingleResponsability\obj\Debug\netcoreapp3.1\SingleResponsability.AssemblyInfo.cs
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\Peludo\SingleResponsability\obj\Debug\netcoreapp3.1\SingleResponsability.csproj.CoreCompileInputs.cache
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\Peludo\SingleResponsability\obj\Debug\netcoreapp3.1\SingleResponsability.dll
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\Peludo\SingleResponsability\obj\Debug\netcoreapp3.1\SingleResponsability.pdb
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\Peludo\SingleResponsability\obj\Debug\netcoreapp3.1\SingleResponsability.genruntimeconfig.cache

@@ -20,7 +20,9 @@ you have to login using your username if not create a new user.
 ## User Stories
 1. As a User, I want to be abel to loggin to and recieve a message welcome to EcommerceJala if credentails are right.
 2. As a user, I want to be able to signup if I don't have an account.
+
 3. As a User, I can see my name in the console after logging in.
+
 4. As a User, I want to be abel to add items to my shopping cart.
 5. As a User, I want to be abel to remove items from my shopping cart.
 6. As a User, I want to be abel to edit items of my shopping cart. 
@@ -30,6 +32,8 @@ you have to login using your username if not create a new user.
 
 10. As a User, I want to be to receive an error message if I selected an Invalid option.
 11. As a user I want to be to receive an message say Thank your for visiting us after finishing my shoppping.
+
+
 12. As an Admin, I want to be abel to create a list of items to sell in my EcommerceJala Data Base.
 13. As an Admin, I want to be abel to Edit the list of items to sell in my EcommerceJala Data Base.
 14. As an Admin, I want to be abel to Remove items to sell in my EcommerceJala Data Base.
