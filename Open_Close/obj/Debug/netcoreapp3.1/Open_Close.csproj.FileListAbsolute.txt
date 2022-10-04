@@ -1,0 +1,14 @@
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\Open_Close\bin\Debug\netcoreapp3.1\Open_Close.exe
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\Open_Close\bin\Debug\netcoreapp3.1\Open_Close.deps.json
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\Open_Close\bin\Debug\netcoreapp3.1\Open_Close.runtimeconfig.json
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\Open_Close\bin\Debug\netcoreapp3.1\Open_Close.runtimeconfig.dev.json
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\Open_Close\bin\Debug\netcoreapp3.1\Open_Close.dll
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\Open_Close\bin\Debug\netcoreapp3.1\Open_Close.pdb
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\Open_Close\obj\Debug\netcoreapp3.1\Open_Close.csproj.AssemblyReference.cache
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\Open_Close\obj\Debug\netcoreapp3.1\Open_Close.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\Open_Close\obj\Debug\netcoreapp3.1\Open_Close.AssemblyInfoInputs.cache
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\Open_Close\obj\Debug\netcoreapp3.1\Open_Close.AssemblyInfo.cs
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\Open_Close\obj\Debug\netcoreapp3.1\Open_Close.csproj.CoreCompileInputs.cache
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\Open_Close\obj\Debug\netcoreapp3.1\Open_Close.dll
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\Open_Close\obj\Debug\netcoreapp3.1\Open_Close.pdb
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\Open_Close\obj\Debug\netcoreapp3.1\Open_Close.genruntimeconfig.cache
