@@ -1,0 +1,14 @@
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\Liskov\bin\Debug\netcoreapp3.1\Liskov.exe
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\Liskov\bin\Debug\netcoreapp3.1\Liskov.deps.json
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\Liskov\bin\Debug\netcoreapp3.1\Liskov.runtimeconfig.json
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\Liskov\bin\Debug\netcoreapp3.1\Liskov.runtimeconfig.dev.json
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\Liskov\bin\Debug\netcoreapp3.1\Liskov.dll
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\Liskov\bin\Debug\netcoreapp3.1\Liskov.pdb
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\Liskov\obj\Debug\netcoreapp3.1\Liskov.csproj.AssemblyReference.cache
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\Liskov\obj\Debug\netcoreapp3.1\Liskov.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\Liskov\obj\Debug\netcoreapp3.1\Liskov.AssemblyInfoInputs.cache
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\Liskov\obj\Debug\netcoreapp3.1\Liskov.AssemblyInfo.cs
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\Liskov\obj\Debug\netcoreapp3.1\Liskov.csproj.CoreCompileInputs.cache
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\Liskov\obj\Debug\netcoreapp3.1\Liskov.dll
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\Liskov\obj\Debug\netcoreapp3.1\Liskov.pdb
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\Liskov\obj\Debug\netcoreapp3.1\Liskov.genruntimeconfig.cache
