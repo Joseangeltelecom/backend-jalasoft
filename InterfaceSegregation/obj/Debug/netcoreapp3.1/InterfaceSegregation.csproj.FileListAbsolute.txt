@@ -1,0 +1,14 @@
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\InterfaceSegregation\obj\Debug\netcoreapp3.1\InterfaceSegregation.csproj.AssemblyReference.cache
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\InterfaceSegregation\obj\Debug\netcoreapp3.1\InterfaceSegregation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\InterfaceSegregation\obj\Debug\netcoreapp3.1\InterfaceSegregation.AssemblyInfoInputs.cache
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\InterfaceSegregation\obj\Debug\netcoreapp3.1\InterfaceSegregation.AssemblyInfo.cs
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\InterfaceSegregation\obj\Debug\netcoreapp3.1\InterfaceSegregation.csproj.CoreCompileInputs.cache
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\InterfaceSegregation\bin\Debug\netcoreapp3.1\InterfaceSegregation.exe
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\InterfaceSegregation\bin\Debug\netcoreapp3.1\InterfaceSegregation.deps.json
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\InterfaceSegregation\bin\Debug\netcoreapp3.1\InterfaceSegregation.runtimeconfig.json
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\InterfaceSegregation\bin\Debug\netcoreapp3.1\InterfaceSegregation.runtimeconfig.dev.json
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\InterfaceSegregation\bin\Debug\netcoreapp3.1\InterfaceSegregation.dll
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\InterfaceSegregation\bin\Debug\netcoreapp3.1\InterfaceSegregation.pdb
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\InterfaceSegregation\obj\Debug\netcoreapp3.1\InterfaceSegregation.dll
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\InterfaceSegregation\obj\Debug\netcoreapp3.1\InterfaceSegregation.pdb
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\InterfaceSegregation\obj\Debug\netcoreapp3.1\InterfaceSegregation.genruntimeconfig.cache
