@@ -1,0 +1,14 @@
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\DependencyInversion\bin\Debug\netcoreapp3.1\DependencyInversion.exe
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\DependencyInversion\bin\Debug\netcoreapp3.1\DependencyInversion.deps.json
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\DependencyInversion\bin\Debug\netcoreapp3.1\DependencyInversion.runtimeconfig.json
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\DependencyInversion\bin\Debug\netcoreapp3.1\DependencyInversion.runtimeconfig.dev.json
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\DependencyInversion\bin\Debug\netcoreapp3.1\DependencyInversion.dll
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\DependencyInversion\bin\Debug\netcoreapp3.1\DependencyInversion.pdb
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\DependencyInversion\obj\Debug\netcoreapp3.1\DependencyInversion.csproj.AssemblyReference.cache
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\DependencyInversion\obj\Debug\netcoreapp3.1\DependencyInversion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\DependencyInversion\obj\Debug\netcoreapp3.1\DependencyInversion.AssemblyInfoInputs.cache
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\DependencyInversion\obj\Debug\netcoreapp3.1\DependencyInversion.AssemblyInfo.cs
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\DependencyInversion\obj\Debug\netcoreapp3.1\DependencyInversion.csproj.CoreCompileInputs.cache
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\DependencyInversion\obj\Debug\netcoreapp3.1\DependencyInversion.dll
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\DependencyInversion\obj\Debug\netcoreapp3.1\DependencyInversion.pdb
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\DependencyInversion\obj\Debug\netcoreapp3.1\DependencyInversion.genruntimeconfig.cache
