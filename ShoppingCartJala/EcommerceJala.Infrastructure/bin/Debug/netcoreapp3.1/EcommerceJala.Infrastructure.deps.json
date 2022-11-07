@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "EcommerceJala.Infrastructure/1.0.0": {
+        "dependencies": {
+          "EcommerceJala.Core": "1.0.0"
+        },
+        "runtime": {
+          "EcommerceJala.Infrastructure.dll": {}
+        }
+      },
+      "EcommerceJala.Core/1.0.0": {
+        "runtime": {
+          "EcommerceJala.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EcommerceJala.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EcommerceJala.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

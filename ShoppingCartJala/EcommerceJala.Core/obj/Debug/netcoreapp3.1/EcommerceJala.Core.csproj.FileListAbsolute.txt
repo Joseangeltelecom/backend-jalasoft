@@ -1,0 +1,10 @@
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\ShoppingCartJala\EcommerceJala.Core\bin\Debug\netcoreapp3.1\EcommerceJala.Core.deps.json
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\ShoppingCartJala\EcommerceJala.Core\bin\Debug\netcoreapp3.1\EcommerceJala.Core.dll
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\ShoppingCartJala\EcommerceJala.Core\bin\Debug\netcoreapp3.1\EcommerceJala.Core.pdb
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\ShoppingCartJala\EcommerceJala.Core\obj\Debug\netcoreapp3.1\EcommerceJala.Core.csproj.AssemblyReference.cache
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\ShoppingCartJala\EcommerceJala.Core\obj\Debug\netcoreapp3.1\EcommerceJala.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\ShoppingCartJala\EcommerceJala.Core\obj\Debug\netcoreapp3.1\EcommerceJala.Core.AssemblyInfoInputs.cache
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\ShoppingCartJala\EcommerceJala.Core\obj\Debug\netcoreapp3.1\EcommerceJala.Core.AssemblyInfo.cs
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\ShoppingCartJala\EcommerceJala.Core\obj\Debug\netcoreapp3.1\EcommerceJala.Core.csproj.CoreCompileInputs.cache
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\ShoppingCartJala\EcommerceJala.Core\obj\Debug\netcoreapp3.1\EcommerceJala.Core.dll
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\ShoppingCartJala\EcommerceJala.Core\obj\Debug\netcoreapp3.1\EcommerceJala.Core.pdb

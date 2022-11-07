@@ -1,0 +1,13 @@
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\ShoppingCartJala\EcommerceJala.Infrastructure\obj\Debug\netcoreapp3.1\EcommerceJala.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\ShoppingCartJala\EcommerceJala.Infrastructure\obj\Debug\netcoreapp3.1\EcommerceJala.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\ShoppingCartJala\EcommerceJala.Infrastructure\obj\Debug\netcoreapp3.1\EcommerceJala.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\ShoppingCartJala\EcommerceJala.Infrastructure\obj\Debug\netcoreapp3.1\EcommerceJala.Infrastructure.AssemblyInfo.cs
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\ShoppingCartJala\EcommerceJala.Infrastructure\obj\Debug\netcoreapp3.1\EcommerceJala.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\ShoppingCartJala\EcommerceJala.Infrastructure\bin\Debug\netcoreapp3.1\EcommerceJala.Infrastructure.deps.json
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\ShoppingCartJala\EcommerceJala.Infrastructure\bin\Debug\netcoreapp3.1\EcommerceJala.Infrastructure.dll
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\ShoppingCartJala\EcommerceJala.Infrastructure\bin\Debug\netcoreapp3.1\EcommerceJala.Infrastructure.pdb
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\ShoppingCartJala\EcommerceJala.Infrastructure\bin\Debug\netcoreapp3.1\EcommerceJala.Core.dll
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\ShoppingCartJala\EcommerceJala.Infrastructure\bin\Debug\netcoreapp3.1\EcommerceJala.Core.pdb
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\ShoppingCartJala\EcommerceJala.Infrastructure\obj\Debug\netcoreapp3.1\EcommerceJala.Infrastructure.csproj.CopyComplete
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\ShoppingCartJala\EcommerceJala.Infrastructure\obj\Debug\netcoreapp3.1\EcommerceJala.Infrastructure.dll
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\ShoppingCartJala\EcommerceJala.Infrastructure\obj\Debug\netcoreapp3.1\EcommerceJala.Infrastructure.pdb
