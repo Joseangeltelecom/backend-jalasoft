@@ -6,6 +6,7 @@
         {
             var video = new Video(){ Title = "Video 1" };
             var videoEncoder = new VideoEncoder(); // Publisher.
+
             var mailService = new MailService(); // 1st subscriber.
             var messageService = new MessageService(); // 2nd subscriber.
 

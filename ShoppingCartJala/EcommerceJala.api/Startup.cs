@@ -1,5 +1,6 @@
-using EcommerceJala.Core.Interfaces;
-using EcommerceJala.Infrastructure.Repositories;
+using EcommerceJala.Infrastructure.Middlewares;
+using EcommerceJala.Infrastructure.Services.Implementations;
+using EcommerceJala.Infrastructure.Services.Interfaces;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -24,7 +25,9 @@ namespace EcommerceJala.Api
         {
             services.AddControllers();
             AddSwagger(services);
-            services.AddTransient<IItemRepository, ItemRepository>();
+            //services.AddTransient<IItemRepository, ItemRepository>();
+            services.AddTransient<IItemService, ItemService>();
+            services.AddTransient<ICartService, CartService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -34,6 +37,8 @@ namespace EcommerceJala.Api
             {
                 app.UseDeveloperExceptionPage();
             }
+
+            app.UseExceptionMiddleware();
 
             app.UseHttpsRedirection();
 

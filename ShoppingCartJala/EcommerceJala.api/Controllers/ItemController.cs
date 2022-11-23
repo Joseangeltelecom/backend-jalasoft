@@ -1,25 +1,25 @@
 ﻿using EcommerceJala.Core.Entities;
-using EcommerceJala.Core.Interfaces;
+using EcommerceJala.Infrastructure.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 
 namespace EcommerceJala.Api.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/item")]
     [ApiController]
     public class ItemController : ControllerBase
     {
-        private readonly IItemRepository _itemRepository;
+        private readonly IItemService _itemService;
 
-        public ItemController(IItemRepository itemRepository)
+        public ItemController(IItemService itemService)
         {
-            _itemRepository = itemRepository;
+            _itemService = itemService;
         }
 
         [HttpGet]
         public async Task<IActionResult> GetItems()
         { 
-            var items = await _itemRepository.GetItems();
+            var items = await _itemService.GetItems();
             return Ok(items);
         }
 
@@ -27,8 +27,9 @@ namespace EcommerceJala.Api.Controllers
         [Route("{id}")]
         public async Task<IActionResult> GetItem(int id)
         {
-            var item =  await _itemRepository.GetItem(id);
-            return Ok(item);   
+            //return await _itemRepository.GetItem(id);
+            var item =  await _itemService.GetItem(id);
+            return Ok(item);
         }
 
         [HttpPost]
@@ -42,18 +43,18 @@ namespace EcommerceJala.Api.Controllers
                 Description = item.Description,
                 Quantity = item.Quantity
             };
-            await _itemRepository.AddItem(newItem);
+            await _itemService.AddItem(newItem);
             //return Ok(_itemRepository.GetItem(newItem.ItemId));
-            return Ok(await _itemRepository.GetItems());
+            return Ok(await _itemService.GetItems());
         }
 
         [HttpDelete]
         [Route("{id}")]
         public async Task<IActionResult> RemoveItem(int id)
         {
-            await _itemRepository.RemoveItem(id);
+            await _itemService.RemoveItem(id);
             //return Ok(_repository.Get(id));
-            return Ok( await _itemRepository.GetItems());
+            return Ok( await _itemService.GetItems());
         }
 
         [HttpPut]
@@ -68,9 +69,9 @@ namespace EcommerceJala.Api.Controllers
                 Description = item.Description,
                 Quantity = item.Quantity
             };
-            await _itemRepository.UpdateItem(newItem);
+            await _itemService.UpdateItem(newItem);
             //return Ok(_itemRepository.GetItem(newItem.ItemId));
-            return Ok(await _itemRepository.GetItems());
+            return Ok(await _itemService.GetItems());
         }
     }
 }

@@ -9,12 +9,12 @@ namespace Delegates
         // 2 - Define an event based on that delegate.
         // 3 - Raise the event.
 
-        //public delegate void VideoEncodedEventHandler(object source, VideoEventArgs args); // a reference to a method
+        public delegate void VideoEncodedEventHandler(object source, VideoEventArgs args); // a reference to a method
 
         // send a reference to the videos so the subscribers know which video we encoded.
-       // public event VideoEncodedEventHandler VideoEncoded;
+        public event VideoEncodedEventHandler VideoEncoded; 
 
-       public event EventHandler<VideoEventArgs> VideoEncoded; 
+       //public event EventHandler<VideoEventArgs> VideoEncoded; 
         public void Encode(Video video)
         {
             Console.WriteLine("Encoding video...");

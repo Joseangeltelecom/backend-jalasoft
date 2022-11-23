@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "lTr/FPqXpIrz1PIuM+108NR9FISPH6skyyoy66vKlNn3CD5a0PbOnuQGnNDCrYQ+4TrGS195BgnWWVXUU4oB0Q==",
+  "dgSpecHash": "z9OorvvKX/RlJI/LMucblVftv9QK6mtHDhvuXRyI9HRxKTo4Nky6uT5R9ST/aKkLgyXfTjDopC6M/D3bFI58bw==",
   "success": true,
   "projectFilePath": "C:\\Users\\josea\\OneDrive\\Escritorio\\Bootcamp-JalaSoft\\Backend-C#\\backend-jalasoft\\ShoppingCartJala\\EcommerceJala.Infrastructure\\EcommerceJala.Infrastructure.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\josea\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\josea\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
+    "C:\\Users\\josea\\.nuget\\packages\\microsoft.extensions.primitives\\2.2.0\\microsoft.extensions.primitives.2.2.0.nupkg.sha512",
+    "C:\\Users\\josea\\.nuget\\packages\\system.memory\\4.5.1\\system.memory.4.5.1.nupkg.sha512",
+    "C:\\Users\\josea\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.1\\system.runtime.compilerservices.unsafe.4.5.1.nupkg.sha512",
+    "C:\\Users\\josea\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512"
+  ],
   "logs": []
 }
