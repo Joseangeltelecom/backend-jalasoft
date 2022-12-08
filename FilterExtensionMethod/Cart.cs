@@ -12,5 +12,10 @@
             Color = color;
             Year = year;
         }
+
+        public override string ToString()
+        {
+            return Name.ToString();
+        }
     }
 }

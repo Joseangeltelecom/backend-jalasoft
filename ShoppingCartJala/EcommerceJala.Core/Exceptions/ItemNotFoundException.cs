@@ -10,6 +10,5 @@ namespace EcommerceJala.Core.Exceptions
         public ItemNotFoundException(string message) : base(message) { }
         public ItemNotFoundException(string message, Exception innerException) : base(message, innerException) { }
 
-
     }
 }

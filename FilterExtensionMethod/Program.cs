@@ -41,10 +41,15 @@ namespace FilterExtensionMethod
 
             // testing with a list objects:
             var FindCarts = listCarts.Filter1(cart => cart.Color == "red");
-            foreach (var value in FindCarts)
-            {
-                Console.WriteLine(value.Name);
-            }
+            FindCarts.PrintPrimitive();
+
+            //foreach (var value in FindCarts)
+            //{
+            //    Console.WriteLine(value.Name);
+            //}
+
+            // Testing with arrays filter2:
+
         }
     }
 }

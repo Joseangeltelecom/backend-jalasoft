@@ -1,0 +1,14 @@
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\ReflexionTask\bin\Debug\netcoreapp3.1\ReflexionTask.exe
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\ReflexionTask\bin\Debug\netcoreapp3.1\ReflexionTask.deps.json
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\ReflexionTask\bin\Debug\netcoreapp3.1\ReflexionTask.runtimeconfig.json
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\ReflexionTask\bin\Debug\netcoreapp3.1\ReflexionTask.runtimeconfig.dev.json
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\ReflexionTask\bin\Debug\netcoreapp3.1\ReflexionTask.dll
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\ReflexionTask\bin\Debug\netcoreapp3.1\ReflexionTask.pdb
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\ReflexionTask\obj\Debug\netcoreapp3.1\ReflexionTask.csproj.AssemblyReference.cache
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\ReflexionTask\obj\Debug\netcoreapp3.1\ReflexionTask.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\ReflexionTask\obj\Debug\netcoreapp3.1\ReflexionTask.AssemblyInfoInputs.cache
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\ReflexionTask\obj\Debug\netcoreapp3.1\ReflexionTask.AssemblyInfo.cs
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\ReflexionTask\obj\Debug\netcoreapp3.1\ReflexionTask.csproj.CoreCompileInputs.cache
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\ReflexionTask\obj\Debug\netcoreapp3.1\ReflexionTask.dll
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\ReflexionTask\obj\Debug\netcoreapp3.1\ReflexionTask.pdb
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\ReflexionTask\obj\Debug\netcoreapp3.1\ReflexionTask.genruntimeconfig.cache

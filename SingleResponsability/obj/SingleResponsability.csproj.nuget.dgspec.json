@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\josea\\OneDrive\\Escritorio\\Bootcamp-JalaSoft\\Backend-C#\\Peludo\\SingleResponsability\\SingleResponsability.csproj": {}
+    "C:\\Users\\josea\\OneDrive\\Escritorio\\Bootcamp-JalaSoft\\Backend-C#\\backend-jalasoft\\SingleResponsability\\SingleResponsability.csproj": {}
   },
   "projects": {
-    "C:\\Users\\josea\\OneDrive\\Escritorio\\Bootcamp-JalaSoft\\Backend-C#\\Peludo\\SingleResponsability\\SingleResponsability.csproj": {
+    "C:\\Users\\josea\\OneDrive\\Escritorio\\Bootcamp-JalaSoft\\Backend-C#\\backend-jalasoft\\SingleResponsability\\SingleResponsability.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\josea\\OneDrive\\Escritorio\\Bootcamp-JalaSoft\\Backend-C#\\Peludo\\SingleResponsability\\SingleResponsability.csproj",
+        "projectUniqueName": "C:\\Users\\josea\\OneDrive\\Escritorio\\Bootcamp-JalaSoft\\Backend-C#\\backend-jalasoft\\SingleResponsability\\SingleResponsability.csproj",
         "projectName": "SingleResponsability",
-        "projectPath": "C:\\Users\\josea\\OneDrive\\Escritorio\\Bootcamp-JalaSoft\\Backend-C#\\Peludo\\SingleResponsability\\SingleResponsability.csproj",
+        "projectPath": "C:\\Users\\josea\\OneDrive\\Escritorio\\Bootcamp-JalaSoft\\Backend-C#\\backend-jalasoft\\SingleResponsability\\SingleResponsability.csproj",
         "packagesPath": "C:\\Users\\josea\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\josea\\OneDrive\\Escritorio\\Bootcamp-JalaSoft\\Backend-C#\\Peludo\\SingleResponsability\\obj\\",
+        "outputPath": "C:\\Users\\josea\\OneDrive\\Escritorio\\Bootcamp-JalaSoft\\Backend-C#\\backend-jalasoft\\SingleResponsability\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\josea\\AppData\\Roaming\\NuGet\\NuGet.Config",

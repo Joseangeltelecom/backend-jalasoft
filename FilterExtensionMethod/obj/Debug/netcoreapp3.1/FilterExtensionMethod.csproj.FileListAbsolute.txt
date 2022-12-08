@@ -12,3 +12,17 @@ C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\FilterExtensionM
 C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\FilterExtensionMethod\obj\Debug\netcoreapp3.1\FilterExtensionMethod.dll
 C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\FilterExtensionMethod\obj\Debug\netcoreapp3.1\FilterExtensionMethod.pdb
 C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\FilterExtensionMethod\obj\Debug\netcoreapp3.1\FilterExtensionMethod.genruntimeconfig.cache
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\FilterExtensionMethod\bin\Debug\netcoreapp3.1\FilterExtensionMethod.exe
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\FilterExtensionMethod\bin\Debug\netcoreapp3.1\FilterExtensionMethod.deps.json
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\FilterExtensionMethod\bin\Debug\netcoreapp3.1\FilterExtensionMethod.runtimeconfig.json
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\FilterExtensionMethod\bin\Debug\netcoreapp3.1\FilterExtensionMethod.runtimeconfig.dev.json
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\FilterExtensionMethod\bin\Debug\netcoreapp3.1\FilterExtensionMethod.dll
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\FilterExtensionMethod\bin\Debug\netcoreapp3.1\FilterExtensionMethod.pdb
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\FilterExtensionMethod\obj\Debug\netcoreapp3.1\FilterExtensionMethod.csproj.AssemblyReference.cache
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\FilterExtensionMethod\obj\Debug\netcoreapp3.1\FilterExtensionMethod.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\FilterExtensionMethod\obj\Debug\netcoreapp3.1\FilterExtensionMethod.AssemblyInfoInputs.cache
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\FilterExtensionMethod\obj\Debug\netcoreapp3.1\FilterExtensionMethod.AssemblyInfo.cs
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\FilterExtensionMethod\obj\Debug\netcoreapp3.1\FilterExtensionMethod.csproj.CoreCompileInputs.cache
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\FilterExtensionMethod\obj\Debug\netcoreapp3.1\FilterExtensionMethod.dll
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\FilterExtensionMethod\obj\Debug\netcoreapp3.1\FilterExtensionMethod.pdb
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\FilterExtensionMethod\obj\Debug\netcoreapp3.1\FilterExtensionMethod.genruntimeconfig.cache
