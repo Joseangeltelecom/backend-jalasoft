@@ -1,0 +1,15 @@
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\CustomAttribute\bin\Debug\net6.0\CustomAttribute.exe
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\CustomAttribute\bin\Debug\net6.0\CustomAttribute.deps.json
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\CustomAttribute\bin\Debug\net6.0\CustomAttribute.runtimeconfig.json
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\CustomAttribute\bin\Debug\net6.0\CustomAttribute.dll
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\CustomAttribute\bin\Debug\net6.0\CustomAttribute.pdb
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\CustomAttribute\obj\Debug\net6.0\CustomAttribute.csproj.AssemblyReference.cache
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\CustomAttribute\obj\Debug\net6.0\CustomAttribute.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\CustomAttribute\obj\Debug\net6.0\CustomAttribute.AssemblyInfoInputs.cache
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\CustomAttribute\obj\Debug\net6.0\CustomAttribute.AssemblyInfo.cs
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\CustomAttribute\obj\Debug\net6.0\CustomAttribute.csproj.CoreCompileInputs.cache
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\CustomAttribute\obj\Debug\net6.0\CustomAttribute.dll
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\CustomAttribute\obj\Debug\net6.0\refint\CustomAttribute.dll
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\CustomAttribute\obj\Debug\net6.0\CustomAttribute.pdb
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\CustomAttribute\obj\Debug\net6.0\CustomAttribute.genruntimeconfig.cache
+C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\CustomAttribute\obj\Debug\net6.0\ref\CustomAttribute.dll

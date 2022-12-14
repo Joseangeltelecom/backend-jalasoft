@@ -32,7 +32,6 @@ namespace EcommerceJala.Infrastructure.Repositories
             return list;
         }
 
-
         public decimal GetTotal()
         {  
             decimal? total = decimal.Zero;

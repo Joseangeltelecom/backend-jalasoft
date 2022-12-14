@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\josea\\OneDrive\\Escritorio\\Bootcamp-JalaSoft\\Backend-C#\\Reflection\\Reflection.csproj": {}
+    "C:\\Users\\josea\\OneDrive\\Escritorio\\Bootcamp-JalaSoft\\Backend-C#\\backend-jalasoft\\Reflexion\\Reflection\\Reflection.csproj": {}
   },
   "projects": {
-    "C:\\Users\\josea\\OneDrive\\Escritorio\\Bootcamp-JalaSoft\\Backend-C#\\Reflection\\Reflection.csproj": {
+    "C:\\Users\\josea\\OneDrive\\Escritorio\\Bootcamp-JalaSoft\\Backend-C#\\backend-jalasoft\\Reflexion\\Reflection\\Reflection.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\josea\\OneDrive\\Escritorio\\Bootcamp-JalaSoft\\Backend-C#\\Reflection\\Reflection.csproj",
+        "projectUniqueName": "C:\\Users\\josea\\OneDrive\\Escritorio\\Bootcamp-JalaSoft\\Backend-C#\\backend-jalasoft\\Reflexion\\Reflection\\Reflection.csproj",
         "projectName": "Reflection",
-        "projectPath": "C:\\Users\\josea\\OneDrive\\Escritorio\\Bootcamp-JalaSoft\\Backend-C#\\Reflection\\Reflection.csproj",
+        "projectPath": "C:\\Users\\josea\\OneDrive\\Escritorio\\Bootcamp-JalaSoft\\Backend-C#\\backend-jalasoft\\Reflexion\\Reflection\\Reflection.csproj",
         "packagesPath": "C:\\Users\\josea\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\josea\\OneDrive\\Escritorio\\Bootcamp-JalaSoft\\Backend-C#\\Reflection\\obj\\",
+        "outputPath": "C:\\Users\\josea\\OneDrive\\Escritorio\\Bootcamp-JalaSoft\\Backend-C#\\backend-jalasoft\\Reflexion\\Reflection\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\josea\\AppData\\Roaming\\NuGet\\NuGet.Config",
