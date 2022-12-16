@@ -1,9 +1,7 @@
-﻿using BakeryFreshBread.Core.Entities;
+﻿using BakeryFreshBread.Core.DTO_s;
 using System;
 using System.Collections.Generic;
-using System.Text;
 using static BakeryFreshBreadFrontend.Enums.EnumOptions;
-
 
 namespace BakeryFreshBreadFrontend.MenusLogic
 {
@@ -11,13 +9,13 @@ namespace BakeryFreshBreadFrontend.MenusLogic
     {
         static int choiceSecondaryMenu = 0;
         static public string selectedType = "";
-        public static void Run()
+        public static async void Run()
         {
             Menus.MenuSecondaryOffice();
             choiceSecondaryMenu = Utils.ValidateInput(4);
 
-              // CreateOffice
-
+            var quantity = Console.ReadLine();
+            int castedQuantity = Convert.ToInt32(quantity);
 
             foreach (var searchMember in Enum.GetValues(typeof(MenuMainOffice)))
             {
@@ -26,7 +24,25 @@ namespace BakeryFreshBreadFrontend.MenusLogic
                     selectedType = (string)searchMember;
                 }
             }
-            //Orders.SaveOrder(selectedType, 30, 1);
+
+            List<BreadOrderDTO> listBreadOrder = new List<BreadOrderDTO>();
+
+            var bread = new BreadOrderDTO()
+            {
+                BreadId = 2,
+                Quantity = castedQuantity
+            };
+
+            listBreadOrder.Add(bread);
+
+            OrderDTO orderdto = new OrderDTO()
+            {
+                OfficeId = 2,
+                Status = "Preparing",
+                BreadOrder = listBreadOrder
+            };
+
+            await Orders.SaveOrder(orderdto);
         }
     }
 }

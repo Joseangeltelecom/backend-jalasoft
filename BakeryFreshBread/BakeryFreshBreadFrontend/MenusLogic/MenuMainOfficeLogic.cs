@@ -1,6 +1,6 @@
 ﻿using BakeryFreshBread.Core.DTO_s;
 using System;
-using System.Threading.Tasks;
+using System.Collections.Generic;
 using static BakeryFreshBreadFrontend.Enums.EnumOptions;
 
 namespace BakeryFreshBreadFrontend.MenusLogic
@@ -10,41 +10,42 @@ namespace BakeryFreshBreadFrontend.MenusLogic
         static int choiceMainMenu = 0;
         static public string selectedType = "";
 
-
-
-        public static async Task<OfficeDTO> CreateOffice() 
-        {
-            OfficeDTO officeDTO = new OfficeDTO()
-            {
-                OfficeName = "Main",
-                Capacity = 150
-
-            };
-
-            var office = await ApiRequest.Create("https://localhost:5001/api/offices", officeDTO);
-            return office;
-        }
-
-       
-
     public async static void Run()
         {
             Menus.MenuMainOffice();
+
             choiceMainMenu = Utils.ValidateInput(4);
   
             var quantity = Console.ReadLine();
-            int a = Convert.ToInt32(quantity);
 
-            foreach (var searchMember in Enum.GetValues(typeof(MenuMainOffice)))
+            int castedQuantity = Convert.ToInt32(quantity);
+
+            foreach (var selectedBread in Enum.GetValues(typeof(MenuMainOffice)))
             {
-                if (choiceMainMenu == (int)searchMember)
+                if (choiceMainMenu == (int)selectedBread)
                 {
-                    selectedType = (string)searchMember;
+                    selectedType = (string)selectedBread;
                 }
             }
 
-            await CreateOffice();
-            //Orders.SaveOrder(selectedType, a, 1);
+            List<BreadOrderDTO> listBreadOrder = new List<BreadOrderDTO>();
+
+            var bread = new BreadOrderDTO()
+            {
+                BreadId = 1,
+                Quantity = castedQuantity
+            };
+
+            listBreadOrder.Add(bread);
+
+            OrderDTO orderdto = new OrderDTO()
+            {
+                OfficeId = 1,
+                Status = "Preparing",
+                BreadOrder = listBreadOrder
+            };
+
+            await Orders.SaveOrder(orderdto);
         }  
     }        
 }

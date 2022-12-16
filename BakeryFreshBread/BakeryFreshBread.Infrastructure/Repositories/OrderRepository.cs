@@ -27,7 +27,6 @@ namespace BakeryFreshBread.Infrastructure.Repositories
             }
             return totalQuantity;
         }
-
         public OrderDTO CreateOrder(OrderDTO data)
         {
             var totalCost = TotalCost(data.BreadOrder);
@@ -64,7 +63,10 @@ namespace BakeryFreshBread.Infrastructure.Repositories
 
         public async Task<IEnumerable<Order>> GetAllOrder()
         {
-            return await _context.Orders.ToListAsync();
+
+            var allOrders = await _context.Orders.ToListAsync();
+
+            return allOrders;
         }
 
         public async Task<Order> GetOrderById(int id)
@@ -90,12 +92,6 @@ namespace BakeryFreshBread.Infrastructure.Repositories
             }
 
             return totalCost;
-
-
-            //var totalPrice = (from breadItem in breadOrder
-            //                  let bread = _context.Breads.FirstOrDefault(x => x.BreadId == breadItem.BreadId)
-            //                  select bread.Price * breadItem.Quantity).Sum();
-            //return totalPrice;
         }
     }
 }

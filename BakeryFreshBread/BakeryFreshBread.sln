@@ -15,7 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BakeryFreshBread.UnitTests"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BakeryFreshBread.IntegrationTests", "BakeryFreshBread.IntegrationTests\BakeryFreshBread.IntegrationTests.csproj", "{6256A3A6-253D-4686-B5FB-61FECF2991CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BakeryFreshBreadFrontend", "BakeryFreshBreadFrontend\BakeryFreshBreadFrontend.csproj", "{10D0B4B7-EBD4-4FBC-AAB4-3B893492EF09}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BakeryFreshBreadFrontend", "BakeryFreshBreadFrontend\BakeryFreshBreadFrontend.csproj", "{10D0B4B7-EBD4-4FBC-AAB4-3B893492EF09}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

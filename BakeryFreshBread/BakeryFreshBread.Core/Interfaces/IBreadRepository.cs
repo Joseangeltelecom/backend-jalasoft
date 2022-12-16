@@ -8,9 +8,9 @@ namespace BakeryFreshBread.Core.Interfaces
     public interface IBreadRepository
     {
         Task<BreadDTO> CreateBread(BreadDTO breadDTO);
-        Task<Bread> GetBreadById(int id);
-        Task<IEnumerable<Bread>> GetAllBreads();
+        Task<BreadDTO> GetBreadById(int id);
+        Task<IEnumerable<BreadDTO>> GetAllBreads();
         Task DeleteBreadById(int id);
-        Task<List<Bread>> GetAllBreadsByOffice(int id);
+        Task<IEnumerable<BreadDTO>> GetAllBreadsByOffice(int id);
     }
 }

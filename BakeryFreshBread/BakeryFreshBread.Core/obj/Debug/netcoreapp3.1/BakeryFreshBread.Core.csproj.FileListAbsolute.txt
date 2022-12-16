@@ -8,6 +8,16 @@ C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\BakeryFreshBread
 C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\BakeryFreshBread\BakeryFreshBread.Core\obj\Debug\netcoreapp3.1\BakeryFreshBread.Core.csproj.CoreCompileInputs.cache
 C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\BakeryFreshBread\BakeryFreshBread.Core\obj\Debug\netcoreapp3.1\BakeryFreshBread.Core.dll
 C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\BakeryFreshBread\BakeryFreshBread.Core\obj\Debug\netcoreapp3.1\BakeryFreshBread.Core.pdb
+G:\Downloads\JOSE\backend-jalasoft\BakeryFreshBread\BakeryFreshBread.Core\bin\Debug\netcoreapp3.1\BakeryFreshBread.Core.deps.json
+G:\Downloads\JOSE\backend-jalasoft\BakeryFreshBread\BakeryFreshBread.Core\bin\Debug\netcoreapp3.1\BakeryFreshBread.Core.dll
+G:\Downloads\JOSE\backend-jalasoft\BakeryFreshBread\BakeryFreshBread.Core\bin\Debug\netcoreapp3.1\BakeryFreshBread.Core.pdb
+G:\Downloads\JOSE\backend-jalasoft\BakeryFreshBread\BakeryFreshBread.Core\obj\Debug\netcoreapp3.1\BakeryFreshBread.Core.csproj.AssemblyReference.cache
+G:\Downloads\JOSE\backend-jalasoft\BakeryFreshBread\BakeryFreshBread.Core\obj\Debug\netcoreapp3.1\BakeryFreshBread.Core.GeneratedMSBuildEditorConfig.editorconfig
+G:\Downloads\JOSE\backend-jalasoft\BakeryFreshBread\BakeryFreshBread.Core\obj\Debug\netcoreapp3.1\BakeryFreshBread.Core.AssemblyInfoInputs.cache
+G:\Downloads\JOSE\backend-jalasoft\BakeryFreshBread\BakeryFreshBread.Core\obj\Debug\netcoreapp3.1\BakeryFreshBread.Core.AssemblyInfo.cs
+G:\Downloads\JOSE\backend-jalasoft\BakeryFreshBread\BakeryFreshBread.Core\obj\Debug\netcoreapp3.1\BakeryFreshBread.Core.csproj.CoreCompileInputs.cache
+G:\Downloads\JOSE\backend-jalasoft\BakeryFreshBread\BakeryFreshBread.Core\obj\Debug\netcoreapp3.1\BakeryFreshBread.Core.dll
+G:\Downloads\JOSE\backend-jalasoft\BakeryFreshBread\BakeryFreshBread.Core\obj\Debug\netcoreapp3.1\BakeryFreshBread.Core.pdb
 C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\BakeryFreshBread\BakeryFreshBread.Core\bin\Debug\netcoreapp3.1\BakeryFreshBread.Core.deps.json
 C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\BakeryFreshBread\BakeryFreshBread.Core\bin\Debug\netcoreapp3.1\BakeryFreshBread.Core.dll
 C:\Users\josea\OneDrive\Escritorio\Bootcamp-JalaSoft\Backend-C#\backend-jalasoft\BakeryFreshBread\BakeryFreshBread.Core\bin\Debug\netcoreapp3.1\BakeryFreshBread.Core.pdb

@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace BakeryFreshBreadFrontend
 {
@@ -21,25 +22,11 @@ namespace BakeryFreshBreadFrontend
             }
         }
 
-
-        public static async void SaveOrder(OrderDTO orderDTO) 
+        public static async Task<bool> SaveOrder(OrderDTO orderDTO) 
         {
+          await ApiRequest.Create("https://localhost:5001/api/offices", orderDTO);
 
-            var totalCost = 0;
-
-            //foreach (var item in orderDTO.BreadOrder)
-            //{
-            //    totalCost = 
-            //}
-
-            //OrderDTO orderDTO = new OrderDTO()
-            //{
-            //         = orderDTO.ord",
-            //    Capacity = 150
-            //};
-
-            //var office = await ApiRequest.Create("https://localhost:5001/api/offices", orderDTO);
-            //return office;
+            return true;
         }
     }
 }
