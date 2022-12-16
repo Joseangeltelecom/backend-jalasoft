@@ -27,9 +27,12 @@ namespace BakeryFreshBread.Api
         {
             services.AddControllers();
             AddSwagger(services);
+      
             services.AddTransient<IBreadRepository, BreadRepository>();
             services.AddTransient<IOfficeRepository, OfficeRepository>();
             services.AddTransient<IOrderRepository, OrderRepository>();
+            //services.AddTransient<IBreadOrderRepository, BreadOrderRepository>();
+
             services.AddDbContext<BakeryFreshBreadContext>(
             options => options.UseSqlServer("name=ConnectionStrings:DefaultConnection"));
         }
@@ -56,6 +59,8 @@ namespace BakeryFreshBread.Api
             app.UseRouting();
 
             app.UseAuthorization();
+
+            app.UseDeveloperExceptionPage();
 
             app.UseEndpoints(endpoints =>
             {

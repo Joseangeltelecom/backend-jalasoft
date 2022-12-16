@@ -1,9 +1,10 @@
-﻿using BakeryFreshBread.Core.Entities;
-using BakeryFreshBread.Core.Exceptions;
+﻿using BakeryFreshBread.Core.DTO_s;
+using BakeryFreshBread.Core.Entities;
 using BakeryFreshBread.Core.Interfaces;
 using BakeryFreshBread.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace BakeryFreshBread.Infrastructure.Repositories
@@ -16,41 +17,46 @@ namespace BakeryFreshBread.Infrastructure.Repositories
             _context = context;
         }
 
-        async public Task<IEnumerable<Bread>> GetBreads()
+        public async Task<BreadDTO> CreateBread(BreadDTO breadDTO)
+        {
+            var currentBread = new Bread()
+            {
+                BreadName = breadDTO.BreadName,
+                Price = breadDTO.Price,
+            };
+
+            _context.Breads.Add(currentBread);
+            await _context.SaveChangesAsync();
+            return breadDTO;
+        }
+
+        public async Task<IEnumerable<Bread>> GetAllBreads()
         {
             return await _context.Breads.ToListAsync();
         }
-        async public Task CreateBread(Bread bread)
+
+        public async Task DeleteBreadById(int id)
         {
-            _context.Breads.Add(bread);
+            var currentBread = _context.Breads.SingleOrDefault(x => x.BreadId == id);
+            _context.Breads.Remove(currentBread);
             await _context.SaveChangesAsync();
         }
 
-        async public Task<Bread> GetBreadById(int id)
+        public async Task<Bread> GetBreadById(int id)
         {
-            var CurrentBred = _context.Breads.FirstOrDefaultAsync(bread => bread.BreadId == id);
-            if (CurrentBred != null)
-            {
-                return await CurrentBred;
-            }
-            else
-            {
-                throw new EntityNotFoundException("Bread not found");
-            }
+            var currentBread = _context.Breads.SingleOrDefaultAsync(x => x.BreadId == id);
+            return await currentBread;
         }
 
-        async public Task RemoveBreadById(int id)
+        public async Task<List<Bread>> GetAllBreadsByOffice(int id)
         {
-            var CurrentBread = await GetBreadById(id);
-            if (CurrentBread != null)
+            var office = await _context.Breads.Where(x => x.Office.OfficeId == id).ToListAsync();
+            List<Bread> breadList = new List<Bread>();
+            foreach (var bread in office)
             {
-                _context.Breads.Remove(CurrentBread);
-                await _context.SaveChangesAsync();
+                breadList.Add(bread);
             }
-            else
-            {
-                throw new EntityNotFoundException("Bread not found");
-            }
+            return breadList;
         }
     }
-}   
+}

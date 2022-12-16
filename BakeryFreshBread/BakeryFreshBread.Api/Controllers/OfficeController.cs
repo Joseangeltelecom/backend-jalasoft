@@ -1,4 +1,4 @@
-﻿using BakeryFreshBread.Core.Entities;
+﻿using BakeryFreshBread.Core.DTO_s;
 using BakeryFreshBread.Core.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
@@ -21,10 +21,17 @@ namespace BakeryFreshBread.Api.Controllers
             return Ok(offices);
         }
 
-        [HttpPost]
-        public async Task<IActionResult> CreateOffice(Office office)
+        [HttpGet("orders/id")]
+        public async Task<IActionResult> getAllOrdersByOffice(int id)
         {
-            await _officeRepository.CreateOffice(office);
+            var offices = await _officeRepository.getAllOrdersByOffice(id);
+            return Ok(offices);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> CreateOffice(OfficeDTO officeDTO)
+        {
+            await _officeRepository.CreateOffice(officeDTO);
             return Ok(await _officeRepository.GetOffices());
         }
 

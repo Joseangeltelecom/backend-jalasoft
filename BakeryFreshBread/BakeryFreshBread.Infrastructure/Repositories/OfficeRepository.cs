@@ -1,9 +1,8 @@
-﻿using BakeryFreshBread.Core.Entities;
-using BakeryFreshBread.Core.Exceptions;
+﻿using BakeryFreshBread.Core.DTO_s;
+using BakeryFreshBread.Core.Entities;
 using BakeryFreshBread.Core.Interfaces;
 using BakeryFreshBread.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -17,49 +16,40 @@ namespace BakeryFreshBread.Infrastructure.Repositories
         {
             _context = context;
         }
-        async public Task CreateOffice(Office office)
+
+        public async Task<OfficeDTO> CreateOffice(OfficeDTO officeDTO)
         {
-            _context.Offices.Add(office);
-            await _context.SaveChangesAsync();
+            var Currentoffice = new Office()
+            {
+                OfficeName = officeDTO.OfficeName,
+                Capacity = officeDTO.Capacity,
+            };
+
+            _context.Offices.Add(Currentoffice);
+            await  _context.SaveChangesAsync();
+            return  officeDTO;
         }
 
-        async public Task<IEnumerable<Office>> GetOffices()
+        public async Task<Office> GetOfficeById(int id)
+        {
+            return await _context.Offices.SingleOrDefaultAsync(x => x.OfficeId == id);
+        }
+
+        public async Task<IEnumerable<Office>> GetOffices()
         {
             return await _context.Offices.ToListAsync();
         }
 
-        async public Task<Office> GetOfficeById(int id)
+        public async Task RemoveOfficeById(int id)
         {
-            var CurrentOffice = _context.Offices.FirstOrDefaultAsync(office => office.OfficeId == id);
-            if (CurrentOffice != null)
-            {
-                return await CurrentOffice;
-            }
-            else
-            {
-                throw new EntityNotFoundException("Office not found");
-            }
+            var office = _context.Offices.SingleOrDefault(x => x.OfficeId == id);
+            _context.Offices.Remove(office);
+            await _context.SaveChangesAsync();
         }
 
-        async public Task RemoveOfficeById(int id)
+        public async Task<List<Order>> getAllOrdersByOffice(int OfficeId)
         {
-
-            var CurrentOffice = _context.Offices.SingleOrDefault(office => office.OfficeId == id);
-
-            //var CurrentOffice = await GetOfficeById(id);
-            if (CurrentOffice != null)
-            {
-                _context.Offices.Remove(CurrentOffice);
-                await _context.SaveChangesAsync();
-            }
-            else
-            {
-                throw new EntityNotFoundException("Office not found");
-            }
+            return await _context.Orders.Where(x => x.OfficeId == OfficeId).ToListAsync();
         }
-
-
-
-
-}
+    }
 }

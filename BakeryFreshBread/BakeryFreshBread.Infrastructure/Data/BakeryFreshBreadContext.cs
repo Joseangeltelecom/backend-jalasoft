@@ -16,5 +16,15 @@ namespace BakeryFreshBread.Infrastructure.Data
         {
             optionsBuilder.UseSqlServer(@"Server=(localdb)\mssqllocaldb;Database=BakeryFreshBreadDB");
         }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<BreadOrder>().HasOne(b => b.Bread)
+                .WithMany(ba => ba.BreadOrder)
+                .HasForeignKey(fo => fo.BreadId);
+
+            modelBuilder.Entity<BreadOrder>().HasOne(b => b.Order)
+                .WithMany(ba => ba.BreadOrder)
+                .HasForeignKey(fo => fo.OrderId);
+        }
     }
 }

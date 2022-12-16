@@ -1,13 +1,10 @@
 ﻿using BakeryFreshBread.Core.DTO_s;
 using BakeryFreshBread.Core.Entities;
-using BakeryFreshBread.Core.Enumerations;
-using BakeryFreshBread.Core.Exceptions;
 using BakeryFreshBread.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading;
 using System.Threading.Tasks;
 
 namespace BakeryFreshBread.Infrastructure.Repositories
@@ -19,130 +16,86 @@ namespace BakeryFreshBread.Infrastructure.Repositories
         {
             _context = context;
         }
-        public List<BreadOrder> breadOrderList { get; set; }
-        public List<Order> orderList { get; set; }
 
-        async public Task<IEnumerable<Order>> GetOrders()
+        public int GetTotalCountInAorder(OrderDTO data)
         {
-            return await _context.Orders.ToListAsync();
-        }
-        async public Task CreateOrder(Order order)
-        {
-            _context.Orders.Add(order);
-            await _context.SaveChangesAsync();
-        }
-
-        async public Task<BreadOrder> CreateBreadOrder(CreateOrderRequest createOrderRequest)
-        {
-            Bread CurrentBread = _context.Breads.SingleOrDefault(bread => bread.BreadId == createOrderRequest.BreadId);
-            Order CurrentOrder = _context.Orders.SingleOrDefault(order => order.OrderId == createOrderRequest.OrderId);
-           
-            BreadOrder newBreadOrder = new BreadOrder()
+            var breadOrderCollection = data.BreadOrder;
+            int totalQuantity = 0;
+            foreach (var breadOrder in breadOrderCollection)
             {
-                Bread = CurrentBread,
-                Order = CurrentOrder,
-                Quantity = createOrderRequest.BreadQuantity,
-            };
-
-            _context.BreadOrders.Add(newBreadOrder);
-            await _context.SaveChangesAsync();
-            return newBreadOrder;
+                totalQuantity += breadOrder.Quantity;
+            }
+            return totalQuantity;
         }
 
-
-        async public Task CreateOrderWithRequest(CreateOrderRequest createOrderRequest)
+        public OrderDTO CreateOrder(OrderDTO data)
         {
-            //Office CurrentOffice = _context.Offices.SingleOrDefault(office => office.OfficeId == createOrderRequest.OfficeId);
-            var breadOrdersList = new List<BreadOrder>();
-            var newBreadOrder = await CreateBreadOrder(createOrderRequest);
-            breadOrdersList.Add(newBreadOrder);
+            var totalCost = TotalCost(data.BreadOrder);
 
-            Order newOrder = new Order()
+            var order = new Order()
             {
-                BreadOrder = breadOrdersList,
-                Status = StatusType.processing,
-                TotalCost = 200,
+                OfficeId = data.OfficeId,
+                Status = data.Status,
+                TotalCost = totalCost,
                 DateCreated = DateTime.Now,
                 DateModified = DateTime.Now
             };
-            
-            _context.Orders.Add(newOrder);
+
+            _context.Orders.Add(order);
+            _context.SaveChanges();
+            SaveBreadOrder(order.OrderId, data.BreadOrder);
+            return data;
+        }
+
+        private void SaveBreadOrder(int orderId, IEnumerable<BreadOrderDTO> orderDto)
+        {
+            foreach (var breadOrder in orderDto)
+            {
+                var breadOrderDb = new BreadOrder()
+                {
+                    OrderId = orderId,
+                    BreadId = breadOrder.BreadId,
+                    Quantity = breadOrder.Quantity
+                };
+                _context.BreadOrders.Add(breadOrderDb);
+                _context.SaveChanges();
+            }
+        }
+
+        public async Task<IEnumerable<Order>> GetAllOrder()
+        {
+            return await _context.Orders.ToListAsync();
+        }
+
+        public async Task<Order> GetOrderById(int id)
+        {
+            var currentOrder = _context.Orders.SingleOrDefaultAsync(x => x.OrderId == id);
+            return await currentOrder;
+        }
+
+        public async Task RemoveOrderById(int id)
+        {
+            var order = _context.Orders.SingleOrDefault(x => x.OrderId == id);
+            _context.Orders.Remove(order);
             await _context.SaveChangesAsync();
         }
-
-        //async public Task<float> GeTotalCost()
-        //{
-        //    float? total = 0;
-        //    total = (float?)(from breadOrder in _context.Orders
-        //                     select (int?)cartItems.Quantity *
-        //                       cartItems.Product.UnitPrice).Sum();
-        //    return total ?? float.Zero;
-
-        //    return totalCost;
-        //}
-
-        async public Task AddBreadOrderToSpecificOrderList(CreateOrderRequest createOrderRequest)
+        public float TotalCost(IEnumerable<BreadOrderDTO> breadOrder)
         {
-            //Office CurrentOffice = _context.Offices.SingleOrDefault(office => office.OfficeId == createOrderRequest.OfficeId);
+            float totalCost = 0;
 
-            var bread = _context.Breads.FirstOrDefault(
-                  p => p.BreadType == createOrderRequest.Breadtype);
-
-            //if (CurrentOffice != null && bread != null)
-            //{
-            //    BreadOrder newBreadOrder = new BreadOrder()
-            //    {
-            //        Bread = bread,
-            //        Quantity = createOrderRequest.BreadQuantity
-            //    };
-
-            //    breadOrderList.Add(newBreadOrder);
-
-            //    Order newOrder = new Order()
-            //    {
-            //        BreadOrder = breadOrderList,
-            //        Status = StatusType.processing,
-            //        TotalCost = 200,
-            //        DateCreated = DateTime.Now,
-            //        DateModified = DateTime.Now
-            //    };
-
-            //    orderList.Add(newOrder);
-
-            //    CurrentOffice.Orders = orderList;
-            //    await _context.SaveChangesAsync();
-            //}
-            //else
-            //{
-            //    throw new EntityNotFoundException("Office not found");
-            //}
-        }
-
-        async public Task<Order> GetOrderById(int id)
-        {
-            var currentOrder = _context.Orders.FirstOrDefaultAsync(order => order.OrderId == id);
-            if (currentOrder != null)
+            foreach (var item in breadOrder)
             {
-                return await currentOrder;
+                var bread = _context.Breads.FirstOrDefault(x => x.BreadId == item.BreadId);
+                totalCost += item.Quantity * bread.Price;
             }
-            else
-            {
-                throw new EntityNotFoundException("Order not found");
-            }
-        }
 
-        async public Task RemoveOrderById(int id)
-        {
-            var currentOrder = await GetOrderById(id);
-            if (currentOrder != null)
-            {
-                _context.Orders.Remove(currentOrder);
-                await _context.SaveChangesAsync();
-            }
-            else
-            {
-                throw new EntityNotFoundException("Order not found");
-            }
+            return totalCost;
+
+
+            //var totalPrice = (from breadItem in breadOrder
+            //                  let bread = _context.Breads.FirstOrDefault(x => x.BreadId == breadItem.BreadId)
+            //                  select bread.Price * breadItem.Quantity).Sum();
+            //return totalPrice;
         }
     }
 }

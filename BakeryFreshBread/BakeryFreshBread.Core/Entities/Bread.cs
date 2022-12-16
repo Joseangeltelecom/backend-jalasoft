@@ -1,7 +1,4 @@
-﻿using BakeryFreshBread.Core.Enumerations;
-using BakeryFreshBread.Core.Interfaces;
-using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace BakeryFreshBread.Core.Entities
@@ -11,8 +8,11 @@ namespace BakeryFreshBread.Core.Entities
         [Key]
         public int BreadId { get; set; }
         [Required]
-        public BreadType BreadType { get; set; }
+        public string BreadName { get; set; }
         [Required]
         public float Price { get; set; }
+
+        public Office Office { get; set; } = null!;
+        public virtual ICollection<BreadOrder> BreadOrder { get; set; }
     }
-}
+}   

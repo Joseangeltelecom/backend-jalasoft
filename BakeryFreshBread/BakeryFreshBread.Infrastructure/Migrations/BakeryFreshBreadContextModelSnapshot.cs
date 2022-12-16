@@ -26,13 +26,19 @@ namespace BakeryFreshBread.Infrastructure.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int>("BreadType")
+                    b.Property<string>("BreadName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("OfficeId")
                         .HasColumnType("int");
 
                     b.Property<float>("Price")
                         .HasColumnType("real");
 
                     b.HasKey("BreadId");
+
+                    b.HasIndex("OfficeId");
 
                     b.ToTable("Breads");
                 });
@@ -47,7 +53,7 @@ namespace BakeryFreshBread.Infrastructure.Migrations
                     b.Property<int>("BreadId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("OrderId")
+                    b.Property<int>("OrderId")
                         .HasColumnType("int");
 
                     b.Property<int>("Quantity")
@@ -69,7 +75,7 @@ namespace BakeryFreshBread.Infrastructure.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int>("BreadCapacity")
+                    b.Property<int>("Capacity")
                         .HasColumnType("int");
 
                     b.Property<string>("OfficeName")
@@ -94,40 +100,41 @@ namespace BakeryFreshBread.Infrastructure.Migrations
                     b.Property<DateTime>("DateModified")
                         .HasColumnType("datetime2");
 
-                    b.Property<int?>("OfficeId")
+                    b.Property<int>("OfficeId")
                         .HasColumnType("int");
 
-                    b.Property<int>("Status")
-                        .HasColumnType("int");
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<float>("TotalCost")
                         .HasColumnType("real");
 
                     b.HasKey("OrderId");
 
-                    b.HasIndex("OfficeId");
-
                     b.ToTable("Orders");
+                });
+
+            modelBuilder.Entity("BakeryFreshBread.Core.Entities.Bread", b =>
+                {
+                    b.HasOne("BakeryFreshBread.Core.Entities.Office", "Office")
+                        .WithMany()
+                        .HasForeignKey("OfficeId");
                 });
 
             modelBuilder.Entity("BakeryFreshBread.Core.Entities.BreadOrder", b =>
                 {
                     b.HasOne("BakeryFreshBread.Core.Entities.Bread", "Bread")
-                        .WithMany()
+                        .WithMany("BreadOrder")
                         .HasForeignKey("BreadId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("BakeryFreshBread.Core.Entities.Order", "Order")
                         .WithMany("BreadOrder")
-                        .HasForeignKey("OrderId");
-                });
-
-            modelBuilder.Entity("BakeryFreshBread.Core.Entities.Order", b =>
-                {
-                    b.HasOne("BakeryFreshBread.Core.Entities.Office", null)
-                        .WithMany("Orders")
-                        .HasForeignKey("OfficeId");
+                        .HasForeignKey("OrderId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }

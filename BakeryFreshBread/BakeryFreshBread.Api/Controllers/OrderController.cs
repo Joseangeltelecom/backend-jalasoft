@@ -10,49 +10,10 @@ namespace BakeryFreshOrder.Api.Controllers
     public class OrderController : ControllerBase
     {
         private readonly IOrderRepository _orderRepository;
-        public OrderController(IOrderRepository orderRepository)
+        public OrderController(IOrderRepository orderRepositoy)
         {
-            _orderRepository = orderRepository;
+            _orderRepository = orderRepositoy;
         }
-
-        [HttpGet]
-        public async Task<IActionResult> GetOrders()
-        {
-            var orders = await _orderRepository.GetOrders();
-            return Ok(orders);
-        }
-
-        //[HttpPost]
-        //public async Task<IActionResult> CreateOrder(Order order)
-        //{
-        //    Order newOrder = new Order
-        //    {
-        //        BreadOrder = order.BreadOrder,
-        //        Status = order.Status,
-        //        TotalCost = order.TotalCost,
-        //        DateCreated = DateTime.Now,
-        //        DateModified = DateTime.Now
-        //    };
-
-        //    await _orderRepository.CreateOrder(newOrder);
-        //    return Ok(await _orderRepository.GetOrders());
-        //}
-
-        [HttpPost]
-        [Route("create")]
-        public async Task<IActionResult> CreateOrderWithRequest(CreateOrderRequest createOrderRequest)
-        {
-            await _orderRepository.CreateOrderWithRequest(createOrderRequest);
-            return Ok(await _orderRepository.GetOrders());
-        }
-
-        //[HttpPost]
-        //[Route("create")]
-        //public async Task<IActionResult> AddBreadOrderToSpecificOrderList(CreateOrderRequest createOrderRequest)
-        //{
-        //    await _orderRepository.AddBreadOrderToSpecificOrderList(createOrderRequest);
-        //    return Ok(await _orderRepository.GetOrders());
-        //}
 
         [HttpGet]
         [Route("{id}")]
@@ -62,11 +23,25 @@ namespace BakeryFreshOrder.Api.Controllers
             return Ok(item);
         }
 
+        [HttpPost]
+        public IActionResult CreateOrder(OrderDTO addOrder)
+        {
+            var order = _orderRepository.CreateOrder(addOrder);
+            return Ok(order);
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> GetOrders()
+        {
+            var orders = await _orderRepository.GetAllOrder();
+            return Ok(orders);
+        }
+
         [HttpDelete]
         public async Task<IActionResult> RemoveProductById(int id)
         {
             await _orderRepository.RemoveOrderById(id);
-            return Ok(await _orderRepository.GetOrders());
+            return Ok(await _orderRepository.GetAllOrder());
         }
     }
 }

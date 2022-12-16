@@ -1,4 +1,4 @@
-﻿using BakeryFreshBread.Core.Entities;
+﻿using BakeryFreshBread.Core.DTO_s;
 using BakeryFreshBread.Core.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
@@ -11,29 +11,23 @@ namespace BakeryFreshBread.Api.Controllers
     {
         private readonly IBreadRepository _breadRepository;
 
-        public BreadController(IBreadRepository breadtRepository)
+        public BreadController(IBreadRepository breadRepository)
         {
-            _breadRepository = breadtRepository;
+            _breadRepository = breadRepository;
         }
-
 
         [HttpGet]
         public async Task<IActionResult> GetBreads()
         {
-            var breads = await _breadRepository.GetBreads();
+            var breads = await _breadRepository.GetAllBreads();
             return Ok(breads);
         }
 
         [HttpPost]
-        public async Task<IActionResult> CreateBread(Bread bread)
+        public async Task<IActionResult> CreateBread(BreadDTO breadDTO)
         {
-            Bread newBread = new Bread()
-            {
-                BreadType = bread.BreadType,
-                Price = bread.Price,
-            };
-            await _breadRepository.CreateBread(newBread);
-            return Ok(await _breadRepository.GetBreads());
+            await _breadRepository.CreateBread(breadDTO);
+            return Ok(await _breadRepository.GetAllBreads());
         }
 
         [HttpGet]
@@ -45,10 +39,18 @@ namespace BakeryFreshBread.Api.Controllers
         }
 
         [HttpDelete]
-        public async Task<IActionResult> RemoveProductById(int id)
+        public async Task<IActionResult> DeleteBreadById(int id)
         {
-            await _breadRepository.RemoveBreadById(id);
-            return Ok(await _breadRepository.GetBreads());
+            await _breadRepository.DeleteBreadById(id);
+            return Ok(await _breadRepository.GetAllBreads());
+        }
+
+        
+        [HttpGet("office/id")]
+        public async Task<IActionResult> GetAllBreadsByOffice(int officeId)
+        {
+            var Breads = await _breadRepository.GetAllBreadsByOffice(officeId);
+            return Ok(Breads);
         }
     }
 }
