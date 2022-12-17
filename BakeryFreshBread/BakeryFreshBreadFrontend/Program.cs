@@ -14,7 +14,7 @@ namespace BakeryFreshBreadFrontend
             Console.WriteLine("Welcome to the BakeryfreshBread App.");
             while (runMenuOptions)
             {
-                MainMenuLogic.Run();
+                MainMenu.Run();
             }
             Console.WriteLine("\nThank you for using this App.");
             Console.ReadKey();

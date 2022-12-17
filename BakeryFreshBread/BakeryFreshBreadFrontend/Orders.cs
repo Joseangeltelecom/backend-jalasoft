@@ -14,11 +14,11 @@ namespace BakeryFreshBreadFrontend
         {
              if (OfficeName == "Main")
              {
-                MenuMainOfficeLogic.Run();
+                MainOffice.Run();
              }
             if (OfficeName == "Secondary")
             {
-                MenuSecondaryOfficeLogic.Run();
+                SecondaryOffice.Run();
             }
         }
 
@@ -26,6 +26,15 @@ namespace BakeryFreshBreadFrontend
         {
           await ApiRequest.Create("https://localhost:5001/api/offices", orderDTO);
 
+            Console.WriteLine("Your order has been saved!!\n");
+            return true;
+        }
+
+        public static async Task<bool> PrepareOrder(OrderDTO orderDTO)
+        {
+            await ApiRequest.Create("https://localhost:5001/api/offices", orderDTO);
+
+            Console.WriteLine("Your order has been saved!!\n");
             return true;
         }
     }
